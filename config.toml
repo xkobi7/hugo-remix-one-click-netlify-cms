@@ -1,6 +1,6 @@
 baseURL = 'https://roneo.itcouldbewor.se/'
 languageCode = 'en-us'
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'cs'
 
 
 [params]
