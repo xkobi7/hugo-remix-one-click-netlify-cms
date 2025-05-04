@@ -1,6 +1,6 @@
-baseURL = 'https://roneo.itcouldbewor.se/'
-languageCode = 'en-us'
-defaultContentLanguage = 'en'
+baseURL = 'https://www.veterinakubinova.cz/'
+languageCode = 'cs-cz'
+defaultContentLanguage = 'cs'
 
 
 [params]
@@ -13,15 +13,15 @@ defaultContentLanguage = 'en'
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 mark = "EN"
 
-[Languages.fr]
-languageName = "fr"
-languageCode = "fr-fr"
-contentDir = "content/fr"
-weight = 2
-mark = "FR"
+[languages.cs]
+languageName = "Čeština"
+languageCode = "cs-cz"
+contentDir = "content/cs"
+weight = 1
+mark = "CZ"
 
 
 [taxonomies]
