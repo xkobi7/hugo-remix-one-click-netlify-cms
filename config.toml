@@ -1,6 +1,6 @@
 baseURL = 'https://roneo.itcouldbewor.se/'
 languageCode = 'en-us'
-defaultContentLanguage = 'cs'
+defaultContentLanguage = 'en'
 
 
 [params]
@@ -15,14 +15,6 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 mark = "EN"
-
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/fr"
-weight = 2
-mark = "FR"
-
 
 [Languages.cs]
 languageName = "Cs"
