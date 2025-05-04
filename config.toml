@@ -9,7 +9,7 @@ defaultContentLanguage = 'cs'
 
 
 # Languages
-[Languages.en]
+[languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
