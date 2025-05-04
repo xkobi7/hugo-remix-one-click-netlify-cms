@@ -1,29 +1,28 @@
-baseURL = 'https://www.veterinakubinova.cz/'
-languageCode = 'cs-cz'
-defaultContentLanguage = 'cs'
-
+baseURL = "https://www.veterinakubinova.cz/"
+languageCode = "cs-cz"
+defaultContentLanguage = "cs"
+defaultContentLanguageInSubdir = false
 
 [params]
-  title = 'Remix, a theme for Hugo fully editable with Netlify CMS'
-  metaDescription = "Hugo + Netlify CMS + One click deploy to Netlify"
+  title = "Veterina Kubínová"
+  metaDescription = "Veterinární ordinace s Netlify CMS a Hugo"
 
+[languages]
 
-# Languages
-[languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 2
-mark = "EN"
+  [languages.cs]
+    languageName = "Čeština"
+    languageCode = "cs-cz"
+    contentDir = "content/cs"
+    weight = 1
+    mark = "CZ"
 
-[languages.cs]
-languageName = "Čeština"
-languageCode = "cs-cz"
-contentDir = "content/cs"
-weight = 1
-mark = "CZ"
-
+  [languages.en]
+    languageName = "En"
+    languageCode = "en-us"
+    contentDir = "content/english"
+    weight = 2
+    mark = "EN"
 
 [taxonomies]
-  category= "theme"
+  category = "theme"
   scene = "scenes"
