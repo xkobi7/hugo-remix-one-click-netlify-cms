@@ -6,7 +6,7 @@ media_folder: "/static/media" # Folder where user uploaded files should go
 public_folder: "/media"
 editor:
   preview: false
-locale: 'fr'
+locale: 'cs'
 
 # Allow local visit
 # You need to run at the root of the project `npx netlify-cms-proxy-server`
@@ -15,8 +15,8 @@ local_backend: true
 # i18n https://www.netlifycms.org/docs/beta-features/#i18n-support
 i18n:
   structure: multiple_folders
-  locales: [ en, fr ]
-  default_locale: en
+  locales: [ cs, en ]
+  default_locale: cs
 
 
 # collections configuration
@@ -25,7 +25,7 @@ collections:
     label: "Global settings"
     i18n:
       structure: single_file
-      locales: [ en, fr ]
+      locales: [ cs, en ]
     files:
       - file: "data/home.yml"
         i18n: true
@@ -153,9 +153,9 @@ collections:
         # { label: "Summary", name: "summary", widget: "text" },
         { label: ".", name: "body", widget: "markdown" },
       ]
-  - name: "news-fr"
-    label: "News (fr)"
-    folder: "content/fr/news"
+  - name: "news-cs"
+    label: "News (cs)"
+    folder: "content/cs/news"
     path: "{{slug}}"
     media_folder: "{{media_folder}}"
     public_folder: "{{public_folder}}"
@@ -189,9 +189,9 @@ collections:
         { label: "Summary", name: "summary", widget: "text" },
         { label: "Body", name: "body", widget: "markdown" },
       ]
-  - name: "products-fr"
-    label: "Products (fr)"
-    folder: "content/fr/products"
+  - name: "products-cs"
+    label: "Products (cs)"
+    folder: "content/cs/products"
     path: "{{slug}}"
     media_folder: "{{media_folder}}"
     public_folder: "{{public_folder}}"
@@ -230,9 +230,9 @@ collections:
         { label: "Summary", name: "summary", widget: "text" },
         { label: "Body", name: "body", widget: "markdown" },
       ]
-  - name: "scene-fr"
-    label: "Scene (fr)"
-    folder: "content/fr/scenes"
+  - name: "scene-cs"
+    label: "Scene (cs)"
+    folder: "content/cs/scenes"
     path: "{{slug}}"
     media_folder: "{{media_folder}}"
     public_folder: "{{public_folder}}"
