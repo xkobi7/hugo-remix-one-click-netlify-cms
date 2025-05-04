@@ -12,7 +12,7 @@ defaultContentLanguageInSubdir = false
   [languages.cs]
     languageName = "Čeština"
     languageCode = "cs-cz"
-    contentDir = "content/fr"
+    contentDir = "content/cs"
     weight = 1
     mark = "CZ"
 
