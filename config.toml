@@ -9,26 +9,26 @@ defaultContentLanguageInSubdir = false
 
 [languages]
 
-  [languages.cs]
-    languageName = "Čeština"
-    languageCode = "cs-cz"
-    contentDir = "content/cs"
-    weight = 3
-    mark = "CZ"
-
   [languages.en]
     languageName = "En"
     languageCode = "en-us"
     contentDir = "content/english"
-    weight = 2
+    weight = 1
     mark = "EN"
+    
+  [languages.cs]
+    languageName = "Čeština"
+    languageCode = "cs-cz"
+    contentDir = "content/cs"
+    weight = 2
+    mark = "CZ"
 
-[languages.fr]
-languageName = "fr"
-languageCode = "fr-fr"
-contentDir = "content/fr"
-weight = 2
-mark = "FR"    
+  [languages.fr]
+     languageName = "fr"
+     languageCode = "fr-fr"
+     contentDir = "content/fr"
+     weight = 3
+     mark = "FR"    
 
 [taxonomies]
   category = "theme"
