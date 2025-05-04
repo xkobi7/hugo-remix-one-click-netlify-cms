@@ -1,35 +1,37 @@
-baseURL = "https://www.veterinakubinova.cz/"
-languageCode = "en-us"
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+baseURL = 'https://roneo.itcouldbewor.se/'
+languageCode = 'en-us'
+defaultContentLanguage = 'en'
+
 
 [params]
-  title = "Veterina Kubínová"
-  metaDescription = "Veterinární ordinace s Netlify CMS a Hugo"
+  title = 'Remix, a theme for Hugo fully editable with Netlify CMS'
+  metaDescription = "Hugo + Netlify CMS + One click deploy to Netlify"
 
-[languages]
 
-  [languages.en]
-    languageName = "En"
-    languageCode = "en-us"
-    contentDir = "content/english"
-    weight = 1
-    mark = "EN"
+# Languages
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+mark = "EN"
+
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/fr"
+weight = 2
+mark = "FR"
+
+
+[Languages.cs]
+languageName = "Cs"
+languageCode = "cs-cz"
+contentDir = "content/cs"
+weight = 3
+mark = "CZ"
     
-  [languages.cs]
-    languageName = "Čeština"
-    languageCode = "cs-cz"
-    contentDir = "content/cs"
-    weight = 2
-    mark = "CZ"
-
-  [languages.fr]
-     languageName = "fr"
-     languageCode = "fr-fr"
-     contentDir = "content/fr"
-     weight = 3
-     mark = "FR"    
-
 [taxonomies]
-  category = "theme"
+  category= "theme"
   scene = "scenes"
+    
