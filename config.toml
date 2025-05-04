@@ -1,6 +1,6 @@
 baseURL = "https://www.veterinakubinova.cz/"
-languageCode = "cs-cz"
-defaultContentLanguage = "cs"
+languageCode = "en-us"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [params]
@@ -13,7 +13,7 @@ defaultContentLanguageInSubdir = false
     languageName = "Čeština"
     languageCode = "cs-cz"
     contentDir = "content/cs"
-    weight = 1
+    weight = 3
     mark = "CZ"
 
   [languages.en]
@@ -22,6 +22,13 @@ defaultContentLanguageInSubdir = false
     contentDir = "content/english"
     weight = 2
     mark = "EN"
+
+[languages.fr]
+languageName = "fr"
+languageCode = "fr-fr"
+contentDir = "content/fr"
+weight = 2
+mark = "FR"    
 
 [taxonomies]
   category = "theme"
